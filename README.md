@@ -4,6 +4,10 @@
 
 Some time ago, I wrote a [tutorial showing how to use server actions with Watson Assistant](https://console.bluemix.net/docs/tutorials/slack-chatbot-database-watson.html) to hook up a Db2 database with a Slack chatbot. For the tutorial I used the serverless approach and the [Conversation connector](https://github.com/watson-developer-cloud/conversation-connector/) to bring Slack and Watson Assistant together. With the sample in this Github repository I provide code to reuse the functions for the server actions that I described in the tutorial. Use Botkit instead of Conversation connector to bring Slack and Watson Assistant together, but keep the server-side code for a database-driven chatbot!
 
+The following blog entries are of relevance:
+* [Enable Botkit Middleware for Watson Assistant for serverless actions](http://blog.4loeser.net/2018/06/enable-botkit-middleware-for-watson.html)
+* [Use BotKit Middleware to create Watson-powered database interface](http://blog.4loeser.net/2018/06/use-botkit-middleware-to-create-watson.html)
+
 ## Install
 To get everything up and running, follow the general instructions in the tutorial to set up Watson Assistant, the server actions with IBM Cloud Functions. Also, obtain a authorization token for the Slack bot. You can deploy the botkit middleware either as **Docker container** or directly using **npm**.
 #### Docker
